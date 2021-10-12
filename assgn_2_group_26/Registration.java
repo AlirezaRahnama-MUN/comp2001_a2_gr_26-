@@ -5,10 +5,13 @@ import javax.swing.Spring;
 import java.util.*;
 
 /**
- * Write a description of class Enrollment here.
+ * This class stores the information of a students registration to 
+ * a course in a university/college
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Alireza Rahnama Maharlooei)
+ * @author (Muhammad Bilal Naseer)
+ * @author (Sean Walsh)
+ * @version (October 12, 2021.)
  */
 public class Registration
 {
