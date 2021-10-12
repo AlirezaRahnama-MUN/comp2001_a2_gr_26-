@@ -6,8 +6,10 @@ import java.util.*;
 /**
  * Write a description of class CollegeRegistrar here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author (Alireza Rahnama Maharlooei)
+ * @author (Muhammad Bilal Naseer)
+ * @author (Sean Walsh)
+ * @version (October 12, 2021.)
  */
 public class CollegeRegistrar
 {
