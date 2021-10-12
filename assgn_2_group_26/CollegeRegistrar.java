@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.*;
 
 /**
- * Write a description of class CollegeRegistrar here.
- *
+ * This class stores student registrations for a university/college
+ * while allowing for easy filtering of the data with the methods provided
+ * by this class
  * @author (Alireza Rahnama Maharlooei)
  * @author (Muhammad Bilal Naseer)
  * @author (Sean Walsh)
