@@ -133,10 +133,10 @@ public class CollegeRegistrar
         int index=0;
         while(index<30){
             String classNo = List1.get(index%List1.size());
-            int slot = index%9 + 12;
-            int section = index%2; 
-            String student = "student"+index%10; // 10 students
-            String professor = "professor"+index%3; //3 professors
+            int slot = index%9 + 12; // Time slot must be between 12 and 25.
+            int section = index%2; // Section must be 0, 1, or 2.
+            String student = "student"+index%10; // 10 students.
+            String professor = "professor"+index%3; //3 professors.
             Registrations.add(new Registration(classNo,section,slot,student,professor));
             index++;
         }
