@@ -1,6 +1,7 @@
 ------------------------------------------------------------------------
 This is the project README file. 
 ------------------------------------------------------------------------
-Alireza Rahnama created this repository.
-Sean Walsh
-Muhammad Bilal Naseer
+Name/Contribution
+Alireza Rahnama/10
+Sean Walsh/10
+Muhammad Bilal Naseer/10
