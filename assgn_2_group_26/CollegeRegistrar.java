@@ -5,8 +5,8 @@ import java.util.*;
 
 /**
  * This class stores student registrations for a university/college
- * while allowing for easy filtering of the data with the methods provided
- * by this class
+ * and allows for easy filtering of the data with the methods provided
+ * 
  * @author (Alireza Rahnama Maharlooei)
  * @author (Muhammad Bilal Naseer)
  * @author (Sean Walsh)
@@ -26,14 +26,10 @@ public class CollegeRegistrar
          Registrations = new ArrayList<Registration>();           
     }
 
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
+    
     public void addRegistration(Registration newRegistration)
     {
+        // adds new registrations to the list
         Registrations.add(newRegistration);
         
     }
@@ -55,8 +51,7 @@ public class CollegeRegistrar
         
         Registrations.stream().filter(s -> student.equals(s.getStudent())).forEach(s -> 
         
-            System.out.println("Course Number: "+s.getCourseNumber() + 
-            "\nProfessor: "+s.getProfessor()));
+            System.out.println("Course Number: "+s.getCourseNumber() + "\nProfessor: "+s.getProfessor()));
     }
     
     public int getClassCountForStudent(String student)
@@ -114,15 +109,15 @@ public class CollegeRegistrar
     public void dropClassForStudent(String classNumber, String student)
     {
         // drops class classNumber for student
-        Registrations.removeIf(s ->
-        student.equals(s.getStudent()) && classNumber.equals(s.getCourseNumber()));
+        Registrations.removeIf(s -> 
+            student.equals(s.getStudent()) && classNumber.equals(s.getCourseNumber()));
     }
     
     public void dropAllClassesForStudent(String student)
     {
         // drops all classes for student
         Registrations.removeIf(s ->
-        student.equals(s.getStudent()));
+            student.equals(s.getStudent()));
     }
     
     public void populateRegistrations() throws Exception
